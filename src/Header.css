@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Labrada&display=swap");
+
+#navbar {
+  height: 80px;
+  width: 100%;
+  /* background-color: rgb(12, 75, 60); */
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(105, 177, 161),
+    rgb(12, 75, 60),
+    rgb(105, 177, 161)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-family: "Labrada", serif;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}

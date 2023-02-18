@@ -1,0 +1,31 @@
+#footer {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(88, 147, 134);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.referUs {
+  font-size: 2.5rem;
+  margin: 10px;
+  font-weight: bold;
+}
+
+#all_links {
+  display: flex;
+  flex-direction: row;
+}
+
+.links {
+  margin: 10px;
+  padding: 5px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.links:hover {
+  transform: scale(1.5);
+}

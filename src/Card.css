@@ -1,0 +1,43 @@
+.carBox {
+  height: 380px;
+  width: 250px;
+  margin: 20px 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgb(175, 169, 169);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.carBox:hover {
+  transform: scale(1.1);
+}
+
+.carimg {
+  height: 80%;
+  width: 100%;
+}
+
+.net_img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.car_name {
+  height: 6%;
+  width: 100%;
+  text-align: center;
+}
+
+.rating_of_car {
+  height: 8%;
+  width: 100%;
+  text-align: center;
+}

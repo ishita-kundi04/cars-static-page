@@ -1,0 +1,13 @@
+#Main_window {
+  height: auto;
+  width: 100vw;
+  background-color: #cecece;
+}
+
+#card_box {
+  margin: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
